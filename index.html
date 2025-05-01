@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Prosevo Technologies</title>
   <link rel="shortcut icon" href="https://www.prosevo.com/assets/logoprosevo.png" type="image/x-icon">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
   <style>
     * {
       box-sizing: border-box;
@@ -25,7 +27,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      background: rgba(0, 0, 0, 0.5);
+      background: rgba(37, 36, 36, 0.5);
       padding: 10px 20px;
       position: sticky;
       top: 0;
@@ -67,7 +69,7 @@
       max-width: 1200px;
       margin: 80px auto;
       padding: 40px;
-      background-color: rgba(0, 0, 0, 0.6);
+      background-color: rgba(0, 0, 0, 0.397);
       border-radius: 10px;
       display: flex;
       align-items: center;
@@ -172,33 +174,59 @@
       margin: 50px;
     }
 
+    .service-card-outer {
+      display: flex;
+      flex-direction: column;
+    }
+
     .service-cards {
       display: flex;
-      flex-wrap: wrap;
+      /* flex-wrap: wrap; */
       justify-content: center;
       align-items: center;
-      flex-wrap: wrap;
+      /* flex-wrap: wrap; */
       gap: 30px;
-      width: 800px;
-      height: 13px;
+      width: 300px;
+      /* height: 13px; */
       margin-left: 200px;
+      /* padding: 50px 140; */
+
     }
 
     .service-card {
       background: antiquewhite;
-      height: 100%;
-      width: 250px;
-      padding: 20px;
+      min-height: 257;
+      min-width: 337px;
+      padding: 0 50 140px;
       border-radius: 10px;
       box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
       color: black;
       font-weight: bold;
       text-align: center;
-      box-shadow: black 0px 5px 15px;
+      box-shadow: black 0px 5px 15p
+    }
+    .parent3{
+      width: 1160px;
+      height: 700px;
+      background-color: rgba(112, 111, 111, 0.352);
+      display: flex;
+      justify-content: center;
+      align-content: center;
+      margin: 30px 0 0 50px;
+      border-radius: 12px;
+    }
+    #card1 img{
+      width: 150px;
+      height: auto;
+
+    }
+    #card1{
+      margin-right: 600px;
     }
   </style>
 </head>
-<body>
+
+<body style="height: 100%; width: 100%;">
 
   <div class="navbar">
     <div class="logo-area">
@@ -220,7 +248,9 @@
     <div>
       <h2>Identify the Problem, Find the Solution<br>and Evolve Your Business</h2>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium eius maiores cum neque error, est.
-        <br><span style="margin-top: 200px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quasi quos voluptatibus libero quibusdam officia? Quas quisquam debitis ad, illum accusantium itaque sapiente quam ex accusamus blanditiis, rerum ab doloribus!</span>
+        <br><span style="margin-top: 200px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quasi
+          quos voluptatibus libero quibusdam officia? Quas quisquam debitis ad, illum accusantium itaque sapiente quam
+          ex accusamus blanditiis, rerum ab doloribus!</span>
       </p>
       <button id="btn1">More info</button>
     </div>
@@ -236,12 +266,21 @@
       <p id="pt1">Prosevo Technologies</p>
       <p id="pt2">SOFTWARE COMPANY</p>
       <div>
-        <p style="color: rgb(0, 0, 0); margin-left: 130px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, voluptatibus perferendis doloremque ipsam, distinctio debitis odit pariatur quisquam soluta dolorem, officiis aliquid cupiditate natus sunt necessitatibus atque explicabo harum asperiores.
-          Quis voluptatum cupiditate dolorem animi quibusdam, ea veritatis doloremque enim, vero consequuntur molestiae id. A maiores accusantium ipsam non ea dolor rem explicabo, provident blanditiis nulla magnam quidem praesentium odio!
-          Inventore modi quibusdam porro voluptate error perferendis consequuntur, cumque repellendus cupiditate? Ipsa beatae harum asperiores sunt ullam animi, itaque corrupti expedita, cum facere alias quos similique minima, dignissimos magni debitis.
-          Consequatur tempore iste ad minima. Similique voluptatibus dolorem et repellat aperiam molestias, dolor necessitatibus quibusdam reprehenderit ipsum aut vero maiores saepe delectus harum dicta ratione corporis, expedita eaque aspernatur?
+        <p style="color: rgb(0, 0, 0); margin-left: 130px;">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Sint, voluptatibus perferendis doloremque ipsam, distinctio debitis odit pariatur quisquam soluta dolorem,
+          officiis aliquid cupiditate natus sunt necessitatibus atque explicabo harum asperiores.
+          Quis voluptatum cupiditate dolorem animi quibusdam, ea veritatis doloremque enim, vero consequuntur molestiae
+          id. A maiores accusantium ipsam non ea dolor rem explicabo, provident blanditiis nulla magnam quidem
+          praesentium odio!
+          Inventore modi quibusdam porro voluptate error perferendis consequuntur, cumque repellendus cupiditate? Ipsa
+          beatae harum asperiores sunt ullam animi, itaque corrupti expedita, cum facere alias quos similique minima,
+          dignissimos magni debitis.
+          Consequatur tempore iste ad minima. Similique voluptatibus dolorem et repellat aperiam molestias, dolor
+          necessitatibus quibusdam reprehenderit ipsum aut vero maiores saepe delectus harum dicta ratione corporis,
+          expedita eaque aspernatur?
         </p>
-        <p style="color: rgb(219, 170, 79); margin-left: 130px; font-weight: bold;"><i>Dive into a world where innovation never pauses, and our commitment to excellence is coded into every solution we deliver</i>.</p>
+        <p style="color: rgb(219, 170, 79); margin-left: 130px; font-weight: bold;"><i>Dive into a world where
+            innovation never pauses, and our commitment to excellence is coded into every solution we deliver</i>.</p>
       </div>
     </div>
     <div class="rightdiv">
@@ -254,14 +293,45 @@
   <hr>
   <div style="text-align: center; padding: 50px 20px; background-color: antiquewhite; height: 300px;">
     <h1 style="color: rgb(219, 170, 79); font-weight: bold;">Services</h1>
-    <div class="service-cards" style="margin-top: 30px;">
-      <div class="service-card"><strong>Odoo ERP implementation&Customization</strong></div>
-      <div class="service-card"><strong>AI Integrated Custom Software & Mobile App Development</strong></div>
-      <div class="service-card"><strong>IT consulting</strong></div>
-      <div class="service-card"><strong>Training & Academy</strong></div>
+    <div class="service-card-outer">
+      <div class="service-cards" style="margin-top: 30px;">
+        <div class="service-card"><strong>Odoo ERP implementation&Customization</strong></div>
+        <div class="service-card"><strong>AI Integrated Custom Software & Mobile App Development</strong></div>
+
+      </div>
+      <div class="service-cards" style="margin-top: 30px;">
+        <div class="service-card"><strong>IT consulting</strong></div>
+        <div class="service-card"><strong>Training & Academy</strong></div>
+      </div>
     </div>
+
   </div>
 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+    crossorigin="anonymous"></script>
+  <div style="width: 1500px; height: 1000px;">
+    <div class="parent3">
+
+      <div style="margin-top: 70px; margin-left: 100px;">
+      <h2 style="color: black; text-align: center;">Training<span style="color: gold;">&</span>Bootcamp</h2>
+      <div class="max-w-[700px] text-center mb-5 opacity-65">At Prosevo, we provide tailored solutions to meet your unique needs. Our comprehensive  Courses <br>support you from conception to execution and beyond.</div>
+      <div id="card1">
+        <div style="width: 530px; height: 210px; background-color: rgb(219 170 79 ); border-radius: 12px; display: flex; align-items: center;">
+        <img src="https://www.prosevo.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fwebimg.6e5d774b.png&w=2048&q=75
+        " alt="imgc1">
+        <p style="font-size: 22px; color: black; font-weight: bold;">Full-Stack Web Development with MERN & Smart<br> Automation</p>
+      </div>
+      </div>
+    </div>
+    <div style="width: 530px; height: 210px; background-color: rgb(219 170 79 ); border-radius: 12px; display: flex; align-items: center;">
+      <img src="" alt="imgc1">
+      <p style="font-size: 22px; color: black; font-weight: bold;">Full-Stack Web Development with MERN & Smart<br> Automation</p>
+    </div>
+    </div>
+
+  </div>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
+
 </html>
